@@ -7,7 +7,8 @@
     "build": "node scripts/copy-videos.js && next build",
     "start": "next start",
     "lint": "next lint",
-    "copy-videos": "node scripts/copy-videos.js"
+    "copy-videos": "node scripts/copy-videos.js",
+    "add-videos": "node scripts/add-videos-to-demo.js"
   },
   "dependencies": {
     "next": "14.0.0",
