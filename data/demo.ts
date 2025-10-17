@@ -601,7 +601,7 @@ function getUploadedVideos(): Video[] {
   } catch (error) {
     console.error('Error getting uploaded videos:', error);
   }
-  return [,
+  return [
   {
     id: 'local_video_1',
     title: '1hj35-131 360p',
