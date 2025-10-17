@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-dark-100 text-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-orange hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply bg-primary-skyblue hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .card {
+    @apply bg-dark-200 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .video-card {
+    @apply card p-4 cursor-pointer;
+  }
+  
+  .ad-banner {
+    @apply bg-gradient-to-r from-primary-orange to-primary-skyblue rounded-lg p-4 text-center text-white font-bold;
+  }
+}
